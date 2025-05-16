@@ -1,0 +1,41 @@
+{
+  "name": "pger",
+  "version": "1.0.0",
+  "description": "Roblox discord bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/cron": "^2.0.1",
+    "@types/luxon": "^3.4.2",
+    "cron": "^4.0.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "luxon": "^3.5.0",
+    "mongoose": "^8.0.0",
+    "node-fetch": "^2.7.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@types/node-fetch": "^2.6.12",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.0",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
