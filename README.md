@@ -6,13 +6,6 @@ A feature-rich Discord bot for Roblox integration, built with TypeScript and Dis
 [![Discord.js](https://img.shields.io/badge/discord.js-v14-blue)](https://discord.js.org/)
 [![Node.js](https://img.shields.io/badge/Node.js->=16-green)](https://nodejs.org/)
 
-## 🌟 Features
-
-- **Roblox User Lookup** - Get detailed information about Roblox users
-- **Bot Stats** - View statistics about the bot's performance
-- **Utility Commands** - Various utility commands for server management
-- **Scheduled Tasks** - Automated tasks using cron jobs
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -26,7 +19,7 @@ A feature-rich Discord bot for Roblox integration, built with TypeScript and Dis
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/pger.git
+   git clone https://github.com/b8ll/pger.git
    cd pger
    ```
 
@@ -52,14 +45,6 @@ A feature-rich Discord bot for Roblox integration, built with TypeScript and Dis
    npm start
    ```
 
-### Docker Deployment
-
-You can also run the bot using Docker:
-
-```bash
-docker-compose up -d
-```
-
 ## 📚 Commands
 
 | Command | Description |
@@ -69,27 +54,6 @@ docker-compose up -d
 | `.ping` | Check bot latency |
 | `.help` | Display help information |
 | `.invite` | Get bot invite link |
-
-## 🛠️ Project Structure
-
-```
-pger/
-├── dist/                # Compiled JavaScript files
-├── src/                 # TypeScript source code
-│   ├── commands/        # Bot commands
-│   ├── events/          # Discord.js event handlers
-│   ├── interfaces/      # TypeScript interfaces
-│   ├── services/        # Core services
-│   ├── types/           # TypeScript type definitions
-│   ├── utils/           # Utility functions
-│   ├── app.ts           # Application setup
-│   └── index.ts         # Entry point
-├── .env                 # Environment variables
-├── Dockerfile           # Docker configuration
-├── docker-compose.yml   # Docker Compose configuration
-├── package.json         # Project dependencies
-└── tsconfig.json        # TypeScript configuration
-```
 
 ## 🤝 Contributing
 
@@ -116,13 +80,6 @@ npm run format
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgements
-
-- [Discord.js](https://discord.js.org/)
-- [Node.js](https://nodejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [MongoDB](https://www.mongodb.com/)
 
 ## 📞 Support
 
